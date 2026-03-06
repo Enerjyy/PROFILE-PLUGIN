@@ -2,3 +2,13 @@ name: profile
 version: '1.0'
 main: com.aurora.profile.Profile
 api-version: '1.21'
+
+commands:
+  startevent:
+    description: Запукает mineHunt
+    usage: /startevent
+    permission: profile.startevent
+    permission-message: "нет у тебя пермишона чорт"
+  event:
+    description: Переключает участие в ивенте
+    usage: /event
